@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <h1>lands</h1>
+  <ul class="list-group">
+    {% for lands in nairobi %}
+      <li class="list-group-item"><a href="lands/{{lands.id}}">{{lands.constituency}}</a></li>
+    {% endfor %}
+  </ul>
+{% endblock %}
