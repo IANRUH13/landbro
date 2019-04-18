@@ -1,0 +1,60 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <div class="jumbotron text-center">
+    <h1>select your county</h1>
+    <p class="lead">Click county to view available lands in the region</p>
+
+    {% if session.logged_in == NULL %}
+
+      <a href="/NAIROBI" class="btn btn-secondary btn-lg btn-block">NAIROBI</a>
+      <a href="/NYERI" class="btn btn-secondary btn-lg btn-block">NYERI</a>
+      <a href="/NYANDARWA" class="btn btn-secondary btn-lg btn-block">NYANDARWA</a>
+      <a href="/MOMBASA" class="btn btn-secondary btn-lg btn-block">MOMBASA</a>
+      <a href="/KWALE" class="btn btn-secondary btn-lg btn-block">KWALE</a>
+      <a href="/KILIFI" class="btn btn-secondary btn-lg btn-block">KILIFI</a>
+      <a href="/TANA RIVER" class="btn btn-secondary btn-lg btn-block">TANA RIVER</a>
+      <a href="/LAMU" class="btn btn-secondary btn-lg btn-block">LAMU</a>
+      <a href="/TAITA-TAVETA" class="btn btn-secondary btn-lg btn-block">TAITA-TAVETA</a>
+      <a href="/GARISSA" class="btn btn-secondary btn-lg btn-block">GARISSA</a>
+      <a href="/WAJIR" class="btn btn-secondary btn-lg btn-block">WAJIR</a>
+      <a href="/MANDERA" class="btn btn-secondary btn-lg btn-block">MANDERA</a>
+      <a href="/MARSABIT" class="btn btn-secondary btn-lg btn-block">MARSABIT</a>
+      <a href="/ISIOLO" class="btn btn-secondary btn-lg btn-block">ISIOLO</a>
+      <a href="/MERU" class="btn btn-secondary btn-lg btn-block">MERU</a>
+      <a href="/THARAKA" class="btn btn-secondary btn-lg btn-block">THARAKA</a>
+      <a href="/EMBU" class="btn btn-secondary btn-lg btn-block">EMBU</a>
+      <a href="/KITUI" class="btn btn-secondary btn-lg btn-block">KITUI</a>
+      <a href="/MACHAKOS" class="btn btn-secondary btn-lg btn-block">MACHAKOS</a>
+      <a href="/MAKUENI" class="btn btn-secondary btn-lg btn-block">MAKUENI</a>
+      <a href="/KIRINYAGA" class="btn btn-secondary btn-lg btn-block">KIRINYAGA</a>
+      <a href="/MURANGA" class="btn btn-secondary btn-lg btn-block">MURANGA</a>
+      <a href="/KIAMBU" class="btn btn-secondary btn-lg btn-block">KIAMBU</a>
+      <a href="/TURKANA" class="btn btn-secondary btn-lg btn-block">TURKANA</a>
+      <a href="/WEST POKOT" class="btn btn-secondary btn-lg btn-block">WEST POKOT</a>
+      <a href="/SAMBURU" class="btn btn-secondary btn-lg btn-block">SAMBURU</a>
+      <a href="TRANS-NZOIA" class="btn btn-secondary btn-lg btn-block">TRANSZOIA</a>
+      <a href="/UASIN GISHU" class="btn btn-secondary btn-lg btn-block">UASIN GISHU</a>
+      <a href="/ELGEYO-MARAKWET" class="btn btn-secondary btn-lg btn-block">ELGEYO-MARAKWET</a>
+      <a href="/NANDI" class="btn btn-secondary btn-lg btn-block">NANDI</a>
+      <a href="/BARINGO" class="btn btn-secondary btn-lg btn-block">BARINGO</a>
+      <a href="/LAIKIPIA" class="btn btn-secondary btn-lg btn-block">LAIKIPIA</a>
+      <a href="/NAKURU" class="btn btn-secondary btn-lg btn-block">NAKURU</a>
+      <a href="/NAROK" class="btn btn-secondary btn-lg btn-block">NAROK</a>
+      <a href="/KAJIADo" class="btn btn-secondary btn-lg btn-block">KAJIADO</a>
+      <a href="/KERICHO" class="btn btn-secondary btn-lg btn-block">KERICHO</a>
+      <a href="/BOMET" class="btn btn-secondary btn-lg  btn-block">BOMET</a>
+      <a href="/KAKAMEGA" class="btn btn-secondary btn-lg btn-block">KAKAMEGA</a>
+      <a href="/VIHIGA" class="btn btn-secondary btn-lg btn-block">VIHIGA</a>
+      <a href="/BUNGOMA" class="btn btn-secondary btn-lg btn-block">BUNGOMA</a>
+      <a href="/BUSIA" class="btn btn-secondary btn-lg btn-block">BUSIA</a>
+      <a href="/SIAYA" class="btn btn-secondary btn-lg btn-block">SIAYA</a>
+      <a href="/KISUMU" class="btn btn-secondary btn-lg btn-block">KISUMU</a>
+      <a href="/HOMABAY" class="btn btn-secondary btn-lg btn-block">HOMABAY</a>
+      <a href="/MIGORI" class="btn btn-secondary btn-lg btn-block">MIGORI</a>
+      <a href="/KISII" class="btn btn-secondary btn-lg btn-block">KISII</a>
+      <a href="/NYAMIRA" class="btn btn-secondary btn-lg btn-block">NYAMIRA</a>
+                    
+    {% endif %}
+  </div>
+{% endblock %}

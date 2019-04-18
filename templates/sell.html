@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <div class="jumbotron text-center">
+    <h1>set up your account to login</h1>
+    <p class="lead">Register or logging to sell your land here</p>
+    {% if session.logged_in == NULL %}
+      <a href="/login" class="btn btn-primary btn-lg">login</a>
+      <a href="/register" class="btn btn-success btn-lg">register</a>
+    {% endif %}
+  </div>
+{% endblock %}

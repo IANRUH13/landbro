@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <h1>{{land.constituency}}</h1>
+  <small>{{land.size}} </small>
+  <small>{{land.price}} </small>
+  <small>{{land.phone}} </small>
+  <hr>
+  <div>
+    {{land.date | safe}}
+  </div>
+{% endblock %}

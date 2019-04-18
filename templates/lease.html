@@ -1,0 +1,62 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <div class="jumbotron text-center">
+    <h1>LEASES AVAILABLE IN COUNTIES</h1>
+    <p class="lead">Select county to view lands on lease</p>
+
+    {% if session.logged_in == NULL %}
+
+      <a href="/NAIROBI_LEASE" class="btn btn-secondary btn-lg btn-block">NAIROBI_LEASE</a>
+      <a href="/NYERI_LEASE" class="btn btn-secondary btn-lg btn-block">NYERI_LEASE</a>
+      <a href="/NYANDARWA_LEASE" class="btn btn-secondary btn-lg btn-block">NYANDARWA_LEASE</a>
+      <a href="/MOMBASA_LEASE" class="btn btn-secondary btn-lg btn-block">MOMBASA_LEASE</a>
+      <a href="/KWALE_LEASE" class="btn btn-secondary btn-lg btn-block">KWALE_LEASE</a>
+      <a href="/KILIFI_LEASE" class="btn btn-secondary btn-lg btn-block">KILIFI_LEASE</a>
+      <a href="/TANA RIVER_LEASE" class="btn btn-secondary btn-lg btn-block">TANA RIVER_LEASE</a>
+      <a href="/LAMU_LEASE" class="btn btn-secondary btn-lg btn-block">LAMU_LEASE</a>
+      <a href="/TAITA-TAVETA_LEASE" class="btn btn-secondary btn-lg btn-block">TAITA-TAVETA_LEASE</a>
+      <a href="/GARISSA_LEASE" class="btn btn-secondary btn-lg btn-block">GARISSA_LEASE</a>
+      <a href="/WAJIR_LEASE" class="btn btn-secondary btn-lg btn-block">WAJIR_LEASE</a>
+      <a href="/MANDERA_LEASE" class="btn btn-secondary btn-lg btn-block">MANDERA_LEASE</a>
+      <a href="/MARSABIT_LEASE" class="btn btn-secondary btn-lg btn-block">MARSABIT_LEASE</a>
+      <a href="/ISIOLO_LEASE" class="btn btn-secondary btn-lg btn-block">ISIOLO_LEASE</a>
+      <a href="/MERU_LEASE" class="btn btn-secondary btn-lg btn-block">MERU_LEASE</a>
+      <a href="/THARAKA_LEASE" class="btn btn-secondary btn-lg btn-block">THARAKA_LEASE</a>
+      <a href="/EMBU_LEASE" class="btn btn-secondary btn-lg btn-block">EMBU_LEASE</a>
+      <a href="/KITUI_LEASE" class="btn btn-secondary btn-lg btn-block">KITUI_LEASE</a>
+      <a href="/MACHAKOS_LEASE" class="btn btn-secondary btn-lg btn-block">MACHAKOS_LEASE</a>
+      <a href="/MAKUENI_LEASE" class="btn btn-secondary btn-lg btn-block">MAKUENI_LEASE</a>
+      <a href="/KIRINYAGA_LEASE" class="btn btn-secondary btn-lg btn-block">KIRINYAGA_LEASE</a>
+      <a href="/MURANGA_LEASE" class="btn btn-secondary btn-lg btn-block">MURANGA_LEASE</a>
+      <a href="/NYERI_LEASE" class="btn btn-secondary btn-lg btn-block">NYERI_LEASE</a>
+      <a href="/KIRINYAGA_LEASE" class="btn btn-secondary btn-lg btn-block">KIRINYAGA_LEASE</a>
+      <a href="/KIAMBU_LEASE" class="btn btn-secondary btn-lg btn-block">KIAMBU_LEASE</a>
+      <a href="/TURKANA-LEASE" class="btn btn-secondary btn-lg btn-block">TURKANA_LEASE</a>
+      <a href="/WEST POKOT-LEASE" class="btn btn-secondary btn-lg btn-block">WEST POKOT_LEASE</a>
+      <a href="/SAMBURU_LEASE" class="btn btn-secondary btn-lg btn-block">SAMBURU_LEASE</a>
+      <a href="TRANS-NZOIA_LEASE" class="btn btn-secondary btn-lg btn-block">TRANSZOIA-LEASE</a>
+      <a href="/UASIN GISHU_LEASE" class="btn btn-secondary btn-lg btn-block">UASIN GISHU_LEASE</a>
+      <a href="/ELGEYO-MARAKWET_LEASE" class="btn btn-secondary btn-lg btn-block">ELGEYO-MARAKWET_LEASE</a>
+      <a href="/NANDI_LEASE" class="btn btn-secondary btn-lg btn-block">NANDI_LEASE</a>
+      <a href="/BARINGO_LEASE" class="btn btn-secondary btn-lg btn-block">BARINGO_LEASE</a>
+      <a href="/LAIKIPIA_LEASE" class="btn btn-secondary btn-lg btn-block">LAIKIPIA_LEASE</a>
+      <a href="/NAKURU_LEASE" class="btn btn-secondary btn-lg btn-block">NAKURU_LEASE</a>
+      <a href="/NAROK_LEASE" class="btn btn-secondary btn-lg btn-block">NAROK_LEASE</a>
+      <a href="/KAJIADo_LEASE" class="btn btn-secondary btn-lg btn-block">KAJIADO_LEASE</a>
+      <a href="/KERICHO_LEASE" class="btn btn-secondary btn-lg btn-block">KERICHO_LEASE</a>
+      <a href="/BOMET_LEASE" class="btn btn-secondary btn-lg  btn-block">BOMET_LEASE</a>
+      <a href="/KAKAMEGA_LEASE" class="btn btn-secondary btn-lg btn-block">KAKAMEGA_LEASE</a>
+      <a href="/VIHIGA_LEASE" class="btn btn-secondary btn-lg btn-block">VIHIGA_LEASE</a>
+      <a href="/BUNGOMA_LEASE" class="btn btn-secondary btn-lg btn-block">BUNGOMA_LEASE</a>
+      <a href="/BUSIA_LEASE" class="btn btn-secondary btn-lg btn-block">BUSIA_LEASE</a>
+      <a href="/SIAYA_LEASE" class="btn btn-secondary btn-lg btn-block">SIAYA_LEASE</a>
+      <a href="/KISUMU_LEASE" class="btn btn-secondary btn-lg btn-block">KISUMU_LEASE</a>
+      <a href="/HOMABAY_LEASE" class="btn btn-secondary btn-lg btn-block">HOMABAY_LEASE</a>
+      <a href="/MIGORI_LEASE" class="btn btn-secondary btn-lg btn-block">MIGORI_LEASE</a>
+      <a href="/KISII_LEASE" class="btn btn-secondary btn-lg btn-block">KISII_LEASE</a>
+      <a href="/NYAMIRA_LEASE" class="btn btn-secondary btn-lg btn-block">NYAMIRA_LEASE</a>
+                    
+    {% endif %}
+  </div>
+{% endblock %}

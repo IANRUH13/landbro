@@ -1,0 +1,28 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <div class="text-center">
+    <h1>WELCOME TO LAND BROKER</h1>
+    <p class="lead">The easiest way to buy and sell land in kenya! </p>
+    {% if session.logged_in == NULL %}
+    
+      <div class="text-align="center">
+        <img src="http://thehda.co.za/images/uploads/news/south-africa-Constitution-land-expropriation.jpg" alt="some image"/>
+      </div>
+
+
+      <ul>
+        <a href="/BUY" class="btn btn-primary btn-lg">BUY</a>
+
+        <a href="/SELL" class="btn btn-success btn-lg">SELL</a>
+
+        <a href="/LEASE" class="btn btn-warning btn-lg">LEASE</a>
+
+
+ 
+    
+      <ul>
+     
+    {% endif %}
+  </div>
+{% endblock %}
